@@ -15,7 +15,8 @@ If you worked on the project as a team or an organization, list your collaborato
 
 Also, if you followed tutorials or referenced a certain material that might help the user to build 
 
-References used include : William Horn, PRAROZ, CodingNepal & Web Genie on YouTube 
-also www.codepel.com, leolopez10 & franklintendo on GitHub
+References used include : William Horn, PRAROZ, CodingNepal, Web Genie & Coding Artist on YouTube 
+also www.codepel.com, javaguides.net & codeconquest.com
+plus leolopez10 & franklintendo on GitHub
 Leo
 MIT Licensed

@@ -1,0 +1,27 @@
+body{
+    background-color: aliceblue;
+}
+.container{
+    max-width: 500px;
+    margin-top: 50px;
+}
+.quiz-container{
+    background-color: aliceblue;
+}
+.timer{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#questioncontainer{
+    margin-bottom: 20px;
+}
+#choice li{
+    margin-bottom: 10px;
+}
+#submit-btn{
+    font-size: 18px;
+}
+#score{
+    font-weight: bold;
+}
