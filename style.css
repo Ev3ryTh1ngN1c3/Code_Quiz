@@ -1,0 +1,77 @@
+
+/* Quiz Timer */
+.timer {
+
+    margin: 0;
+    padding;
+    0;
+    box-sizing: border-box;
+
+    border: 1px #600960;
+}
+
+.top-bar p {
+    float: center;
+}
+
+body {
+    background-color: #333;
+}
+
+.timer {
+    color: rgb(154, 14, 154), 66, 214);
+    font-weight: bold;
+    font-size: 1.6em;
+    padding: 6px;
+    margin: 0px auto 10px;
+    border: 1px solid #c6c6c2;
+    border-radius: 5px;
+    width: 80px;
+}
+
+.answer {
+    width: 100%;
+    border: 1px solid #a8c1d5;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: arial, helvetica, sans-serif;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #CEDCE7;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#CEDCE7), to(#596a72));
+    background-image: -webkit-linear-gradient(top, #CEDCE7, #600960);
+    background-image: -moz-linear-gradient(top, #CEDCE7, #600960);
+    background-image: -ms-linear-gradient(top, #CEDCE7, #600960);
+    background-image: -o-linear-gradient(top, #CEDCE7, #600960);
+    background-image: linear-gradient(to bottom, #CEDCE7, #600960);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#CEDCE7, endColorstr=#596a72);
+}
+
+.cd__main {
+    display: block !important;
+}
+
+.answer:hover {
+    border: 1px solid #8aabc5;
+    background-color: #acc4d6;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#acc4d6), to(#434f55));
+    background-image: -webkit-linear-gradient(top, #acc4d6, #600960);
+    background-image: -moz-linear-gradient(top, #acc4d6, #600960);
+    background-image: -ms-linear-gradient(top, #acc4d6, #600960);
+    background-image: -o-linear-gradient(top, #acc4d6, #600960);
+    background-image: linear-gradient(to bottom, #acc4d6, #600960);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#acc4d6, endColorstr=#434f55);
+}
+
+.top-buffer {
+    margin-top: 20px;
+}
+
+Finally,
+add the following JavaScript fun
