@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding-Questions Quiz</title>
-    <link rel="stylesheets" herf ="styles.css">
+    <link rel="stylesheets" herf="style.css">
 </head>
+
 <body>
+    <div class="top-bar">
+        <button>view high scores</button>
+        <p>time: 00:00</p>
+    </div>
     <div class="container">
         <div class="quiz-container">
-            <h1 class="text-container"></h1>
+            <h1 class="text-center">Coding-Questions Quiz</h1>
+            <div id="question-container" class="mv-4">
+                <p id="question"></p>
+                <ul id="choices" class="list-unstyled"></ul>
+            </div>
+            <button id="submit-btn" class="btn btn-primary btn-block">submit</button>
+            <button id="restart-btn" class="btn btn-secondary btn-block">submit</button>
         </div>
-
     </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
