@@ -31,3 +31,17 @@ let userScore = document.getElementById("user-score");
 let currentQuestion = 0;
 let score = 0;
 let timeLeft = 120;
+
+function quizCreator () {
+    quizArray.sort(() => Math.random() - 0.5);
+    for (let i of quizArray) {
+        i.options.sort(() => Math.random() - 0.5);
+        let div = document.createElement("div");
+        div.classList.add("container-mid", "hide");
+        countOfQuestion.innerHTML = 1 + "of" + quizArray.length + "question"
+        let question_DIV = document.createElement("p");
+        question_DIV.classList.add("question");
+        question_DIV.innerHTML = i.question;
+        div.appendChild(question_DIV);
+    }
+}
