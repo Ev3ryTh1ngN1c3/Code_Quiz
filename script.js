@@ -32,6 +32,8 @@ let currentQuestion = 0;
 let score = 0;
 let timeLeft = 120;
 
+
+
 function quizCreator () {
     quizArray.sort(() => Math.random() - 0.5);
     for (let i of quizArray) {
@@ -43,5 +45,14 @@ function quizCreator () {
         question_DIV.classList.add("question");
         question_DIV.innerHTML = i.question;
         div.appendChild(question_DIV);
+        div.innerHTML += '
+
+        <button class="option-div" onClick="checker(this)">${i.options[0]}</button>
+        <button class="option-div" onClick="checker(this)">${i.options[1]}</button>
+        <button class="option-div" onClick="checker(this)">${i.options[2]}</button>
+        <button class="option-div" onClick="checker(this)">${i.options[3]}</button>
+
+        ';
+        quizContainer.appendChild(div);
     }
 }
