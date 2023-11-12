@@ -14,7 +14,7 @@ If your project has a lot of features,
 
 References used include :
 William Horn, PRAROZ, CodingNepal, Web Genie & Coding Artist on YouTube tutorials
-also www.codepel.com, javaguides.net & codeconquest.com
+also codepel.com, javaguides.net & codeconquest.com
 plus leolopez10 & franklintendo on GitHub
 Collaborated with AskBCS / UCF Coding Boot Camp : Diego, Dan
 MIT Licensed
