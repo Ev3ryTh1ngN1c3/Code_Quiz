@@ -34,11 +34,11 @@ timeLeft = 120;
 
 const quizDisplay = (questionCount) => {
     let quizCards = document.querySelectorAll("container_mid");
-    quizCards.forEach((card) => {card.classList.add("hide")});
-    quizCards[questionCount].classList.remove("hide");
+    quizCards.forEach((card) => { card.classList.add("hide") });
+    quizCards[questionCount].classList.remove("hide")();
 };
 
-function quizDisplay () {
+function quizDisplay() {
     quizArray.sort(() => Math.random() - 0.5);
     for (let i of quizArray) {
         i.options.sort(() => Math.random() - 0.5);
@@ -49,9 +49,9 @@ function quizDisplay () {
         question_DIV.classList.add("question");
         question_DIV.innerHTML = i.question;
         div.appendChild(question_DIV);
-        div.innerHTML += 
+        div.innerHTML +=
 
-        <button class="option-div" onClick="checker(this)">${i.options[0]}</button>;
+            <button class="option-div" onClick="checker(this)">${i.options[0]}</button>;
         <button class="option-div" onClick="checker(this)">${i.options[1]}</button>;
         <button class="option-div" onClick="checker(this)">${i.options[2]}</button>;
         <button class="option-div" onClick="checker(this)">${i.options[3]}</button>;

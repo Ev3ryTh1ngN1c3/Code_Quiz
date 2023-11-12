@@ -15,6 +15,18 @@ body{
 }
 #questioncontainer{
     margin-bottom: 20px;
+    font-weight: 600px;
+}
+.option.div {
+    font-size: 10px;
+    width: 100%;
+    padding: 1px;
+    margin: 3px;
+    text-align: left;
+    outline: none;
+    background: transparent;
+    border: 1px purple;
+    border-radius: 1px;
 }
 #choice li{
     margin-bottom: 10px;
