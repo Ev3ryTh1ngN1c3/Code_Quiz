@@ -1,3 +1,4 @@
+console.log("hello")
 const questionsArray = [
     {
         question: "What tag specifies a section of text in HTML?",

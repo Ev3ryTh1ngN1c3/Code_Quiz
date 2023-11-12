@@ -1,22 +1,28 @@
-body{
-    background-color: aliceblue;
+body {
+    background-color: rgb(244, 246, 243);
 }
-.container{
+
+.container {
     max-width: 500px;
     margin-top: 50px;
 }
-.quiz-container{
-    background-color: aliceblue;
+
+.quiz-container {
+    background-color: white;
 }
-.timer{
+
+.timer {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 20px;
+    background-color: white;
 }
-#questioncontainer{
+
+#questioncontainer {
     margin-bottom: 20px;
     font-weight: 600px;
 }
+
 .option.div {
     font-size: 10px;
     width: 100%;
@@ -28,17 +34,39 @@ body{
     border: 1px purple;
     border-radius: 1px;
 }
+
 .option.div:disabled {
-    color: #000;
+    color: purple;
     cursor: not-allowed;
 }
 
-#choice li{
+#next-button {
+    font-size: 1px;
+    margin-top: 2px;
+    background-color: purple;
+    color: white;
+    padding: 1px;
+    border-radius: 1px;
+    float: right;
+}
+
+.hide {
+    display: none;
+}
+
+#userScore {
+    font-size: 2px;
+    color: purple;
+}
+
+#choice li {
     margin-bottom: 10px;
 }
-#submit-btn{
+
+#submit-btn {
     font-size: 18px;
 }
-#score{
+
+#score {
     font-weight: bold;
 }
