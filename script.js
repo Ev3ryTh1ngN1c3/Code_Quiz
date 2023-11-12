@@ -31,45 +31,18 @@ let userScore = document.getElementById("user-score");
 let currentQuestion = 0;
 let score = 0;
 timeLeft = 120;
-
-const quizDisplay = (questionCount) => {
-    let quizCards = document.querySelectorAll("container_mid");
-    quizCards.forEach((card) => { card.classList.add("hide") });
-    quizCards[questionCount].classList.remove("hide")();
-};
-
-function quizDisplay() {
-    quizArray.sort(() => Math.random() - 0.5);
-    for (let i of quizArray) {
-        i.options.sort(() => Math.random() - 0.5);
-        let div = document.createElement("div");
-        div.classList.add("container-mid", "hide");
-        countOfQuestion.innerHTML = 1 + "of" + quizArray.length + "question"
-        let question_DIV = document.createElement("p");
-        question_DIV.classList.add("question");
-        question_DIV.innerHTML = i.question;
-        div.appendChild(question_DIV);
-        div.innerHTML +=
-
-            <button class="option-div" onClick="checker(this)">${i.options[0]}</button>;
-        <button class="option-div" onClick="checker(this)">${i.options[1]}</button>;
-        <button class="option-div" onClick="checker(this)">${i.options[2]}</button>;
-        <button class="option-div" onClick="checker(this)">${i.options[3]}</button>;
-
-        quizContainer.appendChild(div);
+let div = document.createElement("div");
+div.classList.add("container-mid", "hide");
+let question_DIV = document.createElement("p");
+question_DIV.classList.add("question");
+div.appendChild(question_DIV);
+div.innerHTML +=
+    function initial() {
+        quizContainer.innerHTML = "";
+        questionCount = 0;
+        scoreCount = 0;
+        count = 11;
+        quizCreator();
+        quizDisplay(questionCount);
     }
-}
 
-function initial() {
-    quizContainer.innerHTML = "";
-    questionCount = 0;
-    scoreCount = 0;
-    count = 11;
-    quizCreator();
-    quizDisplay(questionCount);
-}
-
-startButton.addEventListner("click", () => {
-    startScreen.classList.add("hide");
-    displayContainer.classList.remove("hide");
-});

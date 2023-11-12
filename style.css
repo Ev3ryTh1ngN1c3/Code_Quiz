@@ -28,6 +28,11 @@ body{
     border: 1px purple;
     border-radius: 1px;
 }
+.option.div:disabled {
+    color: #000;
+    cursor: not-allowed;
+}
+
 #choice li{
     margin-bottom: 10px;
 }
