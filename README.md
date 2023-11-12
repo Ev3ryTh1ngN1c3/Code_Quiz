@@ -1,23 +1,20 @@
 # Code_Quiz
 A timed coding quiz with multiple-choice questions.
+The motivation for this project is to complete a coding assessment to prepare for an interview process.
+This project was built as an interactive coding challenge.
+The problem solved is to take a timed quiz on coding fundamentals.
+I learned a gauge of my progress.
+I worked through challenges with syntax errors & unresponsivness.
+Front End Technologies used are HTML, CSS, JavaScript & JQuery.
 
-
-What was your motivation?
-Why did you build this project?
-What problem does it solve?
-What did you learn?
 What makes your project stand out?
-If your project has a lot of features, consider adding a "Features" section and listing them here.
-technologies you used,
+If your project has a lot of features, 
  challenges you faced and features you hope to implement in the future.
- Credits
-If you worked on the project as a team or an organization, list your collaborators/team members. You should also include links to their GitHub profiles and social media too.
 
-Also, if you followed tutorials or referenced a certain material that might help the user to build 
 
-References used include : William Horn, PRAROZ, CodingNepal, Web Genie & Coding Artist on YouTube 
+References used include :
+William Horn, PRAROZ, CodingNepal, Web Genie & Coding Artist on YouTube tutorials
 also www.codepel.com, javaguides.net & codeconquest.com
 plus leolopez10 & franklintendo on GitHub
-Collaborated with AskBCS / Diego
-Leo
+Collaborated with AskBCS / UCF Coding Boot Camp : Diego, Dan
 MIT Licensed
