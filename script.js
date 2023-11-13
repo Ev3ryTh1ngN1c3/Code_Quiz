@@ -17,33 +17,3 @@ const questionsArray = [
     }
 ];
 
-const container = document.querySelector(".container");
-const questionElement = document.getElementById("question");
-const choicesElement = document.getElementById("choices");
-const restartButton = document.getElementById("restart-btn");
-const timerElement = document.getElementById("time")
-const quizDisplay = document.getElementById("display")
-
-let timeLeft = document.querySelector(".time-left");
-let quizContainer = document.getElementById("container");
-let countOfQuestion = document.querySelector("number-of-question");
-let userScore = document.getElementById("user-score");
-
-let currentQuestion = 0;
-let score = 0;
-timeLeft = 120;
-let div = document.createElement("div");
-div.classList.add("container-mid", "hide");
-let question_DIV = document.createElement("p");
-question_DIV.classList.add("question");
-div.appendChild(question_DIV);
-div.innerHTML +=
-    function initial() {
-        quizContainer.innerHTML = "";
-        questionCount = 0;
-        scoreCount = 0;
-        count = 11;
-        quizCreator();
-        quizDisplay(questionCount);
-    }
-

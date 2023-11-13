@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(244, 246, 243);
+    background-color: white;
 }
 
 .container {
@@ -23,50 +23,6 @@ body {
     font-weight: 600px;
 }
 
-.option.div {
-    font-size: 10px;
-    width: 100%;
-    padding: 1px;
-    margin: 3px;
-    text-align: left;
-    outline: none;
-    background: transparent;
-    border: 1px purple;
-    border-radius: 1px;
-}
-
-.option.div:disabled {
-    color: purple;
-    cursor: not-allowed;
-}
-
-#next-button {
-    font-size: 1px;
-    margin-top: 2px;
-    background-color: purple;
-    color: white;
-    padding: 1px;
-    border-radius: 1px;
-    float: right;
-}
-
-.hide {
-    display: none;
-}
-
-#userScore {
-    font-size: 2px;
-    color: purple;
-}
-
-#choice li {
-    margin-bottom: 10px;
-}
-
 #submit-btn {
-    font-size: 18px;
-}
-
-#score {
-    font-weight: bold;
+    font-size: 20px;
 }
