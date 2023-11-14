@@ -5,5 +5,5 @@ This project was built as an interactive coding challenge.
 The problem solved is to take a timed quiz on coding fundamentals.
 I learned a gauge of my progress.
 I worked through challenges with syntax errors & unresponsivness.
-Front End Technologies used are HTML, CSS, JavaScript & JQuery.
+Front End Technologies used are HTML, CSS & JavaScript.
 MIT Licensed
